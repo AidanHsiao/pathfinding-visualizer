@@ -138,6 +138,7 @@ export default function Home() {
               if (val < tempStartingPoint[0]) tempStartingPoint[0] = val;
               if (val < tempEndingPoint[0]) tempEndingPoint[0] = val;
               tempDimensions[0] = val;
+              setWalls([]);
               setStartingPoint(tempStartingPoint);
               setEndingPoint(tempEndingPoint);
               setMatrixDimensions(tempDimensions);
@@ -157,6 +158,7 @@ export default function Home() {
               if (val < tempStartingPoint[1]) tempStartingPoint[1] = val;
               if (val < tempEndingPoint[1]) tempEndingPoint[1] = val;
               tempDimensions[1] = val;
+              setWalls([]);
               setStartingPoint(tempStartingPoint);
               setEndingPoint(tempEndingPoint);
               setMatrixDimensions(tempDimensions);
