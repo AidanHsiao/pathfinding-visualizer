@@ -44,13 +44,15 @@
   min-width: 150px;
   min-height: 40px;
   max-height: 60px;
-  background-image: linear-gradient(to right, #ffa600, #ff00ff);
+  background-image: linear-gradient(to right, #ffdea0, #ffbcff);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
   cursor: pointer;
   padding-inline: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
 }
 
 .section {
